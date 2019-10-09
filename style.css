@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: lightgrey;
+    margin: auto;
+    margin-top: 10px;
+    width: 758px;
+    height: 375px;
+    position: relative;
+}
+
+.adidas {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.sixty {
+    position: absolute;
+    top:85%;
+    right: 45%;
+    display: none;
+    text-align: center;
+    color: white;
+    background-color: red;
+    width: 20%;
+}
+
+.adidas:hover .sixty{
+    display: inline-block;
+
+}
+
+.nike {
+    position: absolute;
+    top: 0;
+    right: 127px;
+    display: inline-block;
+}
+
+.fifty {
+    position: absolute;
+    right: 128px;
+    text-align: center;
+    display: none;
+    color: white;
+    background-color: red;
+}
+
+.nike:hover .fifty{
+    display: inline-block;
+}
+
+.converse {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+.forty {
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    display: none;
+    color: white;
+    background-color: red;
+}
+
+.converse:hover .forty{
+    display: inline-block;
+}
+
+.sports {
+    position: absolute;
+    bottom: 0;
+    right: 127px;
+    display: inline-block;
+}
+
+.thirty{
+    position: absolute;
+    right: 127px;
+    bottom: 149px;
+    display: none;
+    color: white;
+    background-color: red;
+}
+
+.sports:hover .thirty{
+    display: inline-block;
+}
+
+.kids_promo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline-block;
+}
+
+.twenty {
+    position: absolute;
+    display: none;
+    right:  0px;
+    bottom: 149px;
+    color: white;
+    background-color: red;
+}
+
+.kids_promo:hover .twenty{
+    display: inline;
+}
+
+.bestdeals {
+    position: absolute;
+    color: red;
+    bottom: 178px;
+    right: 84px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0;
+
+
+}
